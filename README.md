@@ -10,7 +10,7 @@ To use an image, you need to preload it using the `preload()` function. This fun
  
   -`createImg()` 
 
-```
+```javaScript
 let img;
 
 function preload() {
@@ -22,7 +22,7 @@ function preload() {
 
 In the `setup()` or `draw()` function, use the `image()` function to display the image on the canvas.
 
-```
+```javaScript
 function setup() {
   createCanvas(800, 600); // Create a canvas
 }
@@ -37,7 +37,7 @@ function draw() {
 
 You can adjust the position, size, and other properties of the image using additional parameters in the `image()` function.
 
-```
+```javaScript
 function draw() {
   background(220);
   image(img, 50, 50, 200, 200); // x,y,w,h
@@ -48,7 +48,7 @@ function draw() {
 
 To work with multiple images, repeat the preload and display steps for each image.
 
-```
+```javaScript
 let img1, img2;
 
 function preload() {
